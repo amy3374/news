@@ -18,8 +18,28 @@
     <title>Min's News</title>
   </head>
   <body>
+    <div class="side-menu" id="mySidenav">
+      <button class="closebtn" onclick="closeNav()">&times;</button>
+      <div class="side-menu-list" id="menu-list">
+        <button>Sport</button>
+        <button>Tech</button>
+        <button>World</button>
+        <button>Finance</button>
+        <button>Politics</button>
+        <button>Business</button>
+        <button>Economics</button>
+        <button>Entertainment</button>
+        <button>Beauty</button>
+        <button>Travel</button>
+        <button>Music</button>
+        <button>Food</button>
+        <button>Science</button>
+        <button>Gaming</button>
+        <button>Energy</button>
+      </div>
+    </div>
     <section class="container">
-      <section>
+      <div>
         <div>
           <input type="text" id="search-input" />
           <button id="search-button">Go!</button>
@@ -48,8 +68,8 @@
           <button>Gaming</button>
           <button>Energy</button>
         </div>
-      </section>
-      <section id="news-board">
+      </div>
+      <div id="news-board">
         <div class="news row">
           <div class="col-lg-4">
             <img
@@ -67,7 +87,7 @@
             <div>BBC * 2021-10-31</div>
           </div>
         </div>
-      </section>
+      </div>
 
       <nav aria-label="Page navigation example" class="nav_pagination">
         <ul class="pagination"></ul>

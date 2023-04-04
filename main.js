@@ -73,7 +73,7 @@ const render = () => {
       return `<div class="row news">
       <div class="col-lg-4">
         <img
-          class="new-img"
+          class="news-img"
           src="${item.media}"
         />
       </div>
@@ -87,7 +87,7 @@ const render = () => {
               ? item.summary.substring(0, 200) + "..."
               : item.summary
           }</p>
-        <div>${item.rights} * ${item.published_date}/div>
+        <div>${item.rights} * ${item.published_date}</div>
       </div>
     </div>`;
     })
